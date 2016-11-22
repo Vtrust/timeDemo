@@ -106,7 +106,7 @@ function updateBalls() {
         if (balls[i].x + RADIUS > 0 && balls[i].x - RADIUS < WINDOW_WIDTH)
             balls[cnt++] = balls[i];
 
-    while (balls.length > cnt) {
+    while (balls.length > cnt||balls.length>300) {
         balls.pop();
     }
 }
