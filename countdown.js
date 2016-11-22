@@ -22,7 +22,7 @@ window.onload = function () {
     MARGIN_LEFT = Math.round(WINDOW_WIDTH / 10);
     RADIUS = Math.round(WINDOW_WIDTH * 4 / 5 / 108) - 1;
 
-    MARGIN_TOP=Math.round(WINDOW_HEIGHT/5);
+    MARGIN_TOP=Math.round(WINDOW_HEIGHT/2)-(RADIUS+1)*16;
     var canvas = document.getElementById('canvas');
     var context = canvas.getContext('2d');
 
